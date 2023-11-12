@@ -1,4 +1,4 @@
-export const BASE_URL = "http://localhost:3000/";
+export const BASE_URL = "https://ante-api-project.onrender.com/";
 
 function replaceUrl(imageUrl) {
   imageUrl = imageUrl.replace(/\\/g, "/");
@@ -6,7 +6,7 @@ function replaceUrl(imageUrl) {
   return imageUrl;
 }
 
-export const miscUrl = "http://localhost:5000/api/miscs";
+export const miscUrl = "https://ante-api-project.onrender.com/api/miscs";
 
 export function miscImageCorrection(data) {
   return data.map((newData) => {
